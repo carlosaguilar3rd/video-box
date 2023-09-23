@@ -14,6 +14,8 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { SubscriptionFormComponent } from './subscription-form/subscription-form.component';
 import { CommandFormComponent } from './comments/comment-form/command-form.component';
 import { CommentListComponent } from './comments/comment-list/comment-list.component';
+import { HttpClientModule } from '@angular/common/http';
+import { BodyComponent } from './layouts/body/body.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +30,13 @@ import { CommentListComponent } from './comments/comment-list/comment-list.compo
     ContactUsComponent,
     SubscriptionFormComponent,
     CommandFormComponent,
-    CommentListComponent
+    CommentListComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

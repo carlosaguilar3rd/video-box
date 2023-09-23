@@ -28,3 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 References: https://www.youtube.com/watch?v=6zv1PTuqIIc
+Reference for calling REST APIs in Angular: https://www.youtube.com/watch?v=CmVDUkCf8Hs

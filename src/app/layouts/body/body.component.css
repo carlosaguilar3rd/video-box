@@ -1,0 +1,30 @@
+.bodycontainer {
+    margin: 15%;
+}
+
+.card {
+    max-width: 384px;
+    box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3);
+
+}
+
+.cardavatar {
+    max-height: 24px;
+    max-width: 24px;
+    vertical-align: top;
+    text-align: right;
+    margin-left: 70%;
+}
+
+.cardauthor {
+    font-size: 14px;
+    color: #8D8D8D;
+    text-align: right;
+    padding-right: 5%;
+}
+
+.cardcreateddate {
+    font-size: 14px;
+    color: #8D8D8D;
+    text-align: left;
+}

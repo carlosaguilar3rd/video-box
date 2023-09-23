@@ -1,0 +1,27 @@
+<section class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 mt-3">
+            <a href="#" class="text-decoration-none">
+                <div class="card" *ngFor="let video of videos">
+                    <img src="{{video.previewUrl}}">
+                    <p>{{video.title}}</p>
+                    <div class="d-flex flex-row">
+                        <div class="col-md-6 col-xs-6">
+                            <p class="cardcreateddate">{{video.createdDate}}</p>
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            <div class="d-flex flex-row">
+                                <div class="col-5">
+                                    <img class="cardavatar align-items-right float-right" src="{{video.author.pictureUrl}}">
+                                </div>
+                                <div class="col-7">
+                                    <p class="cardauthor">{{video.author.name}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
