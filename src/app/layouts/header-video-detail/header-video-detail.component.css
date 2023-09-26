@@ -1,0 +1,27 @@
+header {
+    height: 80px;
+    background-color: #12123D !important;
+}
+
+.site-logo {
+    padding-left: 20px;
+}
+
+.pictureUrl {
+    max-height: 32px;
+    max-width: 32px;
+    vertical-align: middle;
+    margin-left: 50%;
+}
+
+.name {
+    color: #ffffff;
+    font-size: 16px;
+    text-align-last: right;
+    margin-top: 10%;
+}
+
+p {
+    font-size: 16px;
+    color: #FFFFFF;
+}

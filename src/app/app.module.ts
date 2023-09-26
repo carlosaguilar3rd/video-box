@@ -16,6 +16,8 @@ import { CommandFormComponent } from './comments/comment-form/command-form.compo
 import { CommentListComponent } from './comments/comment-list/comment-list.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BodyComponent } from './layouts/body/body.component';
+import { VideoDetailsComponent } from './layouts/video-details/video-details.component';
+import { HeaderVideoDetailComponent } from './layouts/header-video-detail/header-video-detail.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { BodyComponent } from './layouts/body/body.component';
     SubscriptionFormComponent,
     CommandFormComponent,
     CommentListComponent,
-    BodyComponent
+    BodyComponent,
+    VideoDetailsComponent,
+    HeaderVideoDetailComponent
   ],
   imports: [
     BrowserModule,

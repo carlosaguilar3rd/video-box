@@ -1,7 +1,18 @@
+<app-header-video-detail></app-header-video-detail>
+
 <div class="container appbody">
-    <div class="row d-flex justify-content-center" *ngIf="isVisible">
-        <div class="col-md-4 thumbnailcard" *ngFor="let video of videos">
-            <a [routerLink]="['/video-details', video.id]" (click)="hideComponent()" class=" thumbnail-link btn-hover">
+    <div class="row d-flex justify-content-center">
+        <p>{{videoDetail.title}}</p>
+        <p>{{videoDetail.url}}</p>
+        <video controls>
+            <source [src]="videoDetail.url" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        
+        
+        
+        <!-- <div class="col-md-4 thumbnailcard" *ngFor="let video of videos">
+            <a [routerLink]="['/video-details', 123]" (click)="hideComponent()" class=" thumbnail-link btn-hover">
                 <img src="{{video.previewUrl}}" class="thumbnailcardimage justify-content-center">
                 <p class="videotitle">{{video.title}}</p>
                 <div class="d-flex flex-row">
@@ -21,6 +32,6 @@
                     </div>
                 </div>
             </a>
-        </div>
+        </div> -->
     </div>
 </div>
