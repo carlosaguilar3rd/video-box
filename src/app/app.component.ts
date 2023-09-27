@@ -11,7 +11,7 @@ export class AppComponent {
   constructor(private router: Router) {}
 
   isHomeRouteActive(): boolean {
-    return this.router.url === '/';
+    return this.router.url === '/videos';
   }
 
   isVideoDetailActive(): boolean {
